@@ -10,5 +10,7 @@ For kubernetes command test </br>
 8. kubectl get pods #get all pods in curremt context/namespace. </br>
 9. kubectl get deployment # get all deployments in this context/namespace. </br>
 10. kubectl exec -it mysql-fb75876c6-c9nfk -- /bin/sh  # execute shell command in the pod. </br>
-11. kubectl expose deployment nginx --port 80 # expose the 80 port in nginx deployment. </br>
-12. 
+11. kubectl expose deployment nginx --port 80 # expose the 80 port in nginx deployment, still need to test. </br>
+12. kubectl create deployment nginx --image=nginx    # create the nginx deployment. </br>
+13. kubectl get Nodes  # get all nodes. </br>
+14. 
