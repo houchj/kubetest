@@ -13,4 +13,5 @@ For kubernetes command test </br>
 11. kubectl expose deployment nginx --port 80 # expose the 80 port in nginx deployment, still need to test. </br>
 12. kubectl create deployment nginx --image=nginx    # create the nginx deployment. </br>
 13. kubectl get Nodes  # get all nodes. </br>
-14. 
+14. kubectl -n kube-system edit configmap kube-dns    #edit kube-dns configmap, still need to understand    </br> 
+15. 
