@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hugo-site
+  namespace: hugo-site
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hugo-site
+  template:
+    metadata:
+      labels:
+        app: hugo-site
+    spec:
+      containers:
+      - name: hugo-site
+        image: houchj/hugo-site:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
