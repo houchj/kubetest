@@ -16,3 +16,4 @@ For kubernetes command test </br>
 14. kubectl -n kube-system edit configmap kube-dns    #edit kube-dns configmap, still need to understand    </br> 
 15. kubectl proxy #start a proxy to route to localhost:8001 </br>
 16. kubectl drain <node name> #safely remove all pods in the node, usualy for maintenance. </br>
+17. kubectl uncordon <node name> #bring back the node, let kube reschedule pods on it. </br>
