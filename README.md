@@ -15,4 +15,4 @@ For kubernetes command test </br>
 13. kubectl get Nodes  # get all nodes. </br>
 14. kubectl -n kube-system edit configmap kube-dns    #edit kube-dns configmap, still need to understand    </br> 
 15. kubectl proxy #start a proxy to route to localhost:8001 </br>
-16. 
+16. kubectl drain <node name> #safely remove all pods in the node, usualy for maintenance. </br>
