@@ -18,3 +18,4 @@ For kubernetes command test </br>
 16. kubectl proxy #start a proxy to route to localhost:8001 </br>
 17. kubectl drain <node name> #safely remove all pods in the node, usualy for maintenance. </br>
 18. kubectl uncordon <node name> #bring back the node, let kube reschedule pods on it. </br>
+19. kubectl describe pod mysql-1582186190-7db67ff89d-jmwck   #get a pod's detail info/status
