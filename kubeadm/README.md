@@ -87,6 +87,9 @@ spec:
 kubectl port-forward demo-cf-7d77d968b5-bksph 8080:8080 --address 0.0.0.0
 
 
+TO avoid using the port-forward, we can create a service, the easiest way is to use the NodePort, see: svc-cf-app.yaml
+
+
 
 
 
