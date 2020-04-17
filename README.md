@@ -1,6 +1,6 @@
 Fancy docker commands:
 
-docker run -it --entrypoint=bash <image>  # redefines the entry point of a image and run the bash in it to check the files inside it. 
+docker run -it --entrypoint=bash [image url.]  # redefines the entry point of a image and run the bash in it to check the files inside it. 
 
 
 For kubernetes command test
