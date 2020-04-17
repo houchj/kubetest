@@ -1,8 +1,10 @@
 Fancy docker commands:
+
 docker run -it --entrypoint=bash <image>  # redefines the entry point of a image and run the bash in it to check the files inside it. 
 
 
-For kubernetes command test </br>
+For kubernetes command test
+
 1. kubectl version #show all client and server side versions </br>
 2. kubectl config view #show configurations stored in <UserHome>/.kube/config </br>
 3. kubectl config use-context ec01 #use ec01 context, this context is bind to a namespace, in this case the namespaces are isolated. </br>
