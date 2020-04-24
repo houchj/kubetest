@@ -1,7 +1,8 @@
 Fancy docker commands:
 
-docker run -it --entrypoint=bash [image url.]  # redefines the entry point of a image and run the bash in it to check the files inside it.</br> 
-docker container run --name my_nginx -d -p 8080:80 nginx    # maps container port to localhost port 
+docker run -it --entrypoint=bash [image url.]  # redefines the entry point of a image, run the bash in it to check the files inside it.</br> 
+docker container run --name my_nginx -d -p 8080:80 nginx    # maps container port to localhost port </br>
+docker cp <containerId>:/file/path/within/container /host/path/target    # copy files from container to outside host
 
 
 For kubernetes command test
