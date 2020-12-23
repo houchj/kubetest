@@ -6,6 +6,7 @@ spec:
   ports:
   - port: 30015
     targetPort: 30015
+    nodePort: 30015
   selector:
     app: demo-hana-dbpool1
   type: NodePort

@@ -1,0 +1,15 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: import-demo-kafka-0
+  labels:
+    app: demo-kafka
+  annotations:
+    volume.beta.kubernetes.io/storage-class: local-storage
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 6Gi
+  storageClassName: local-storage 
